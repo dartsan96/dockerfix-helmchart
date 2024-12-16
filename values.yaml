@@ -1,0 +1,15 @@
+replicaCount: 2
+
+image:
+  repository: docker.io/dartsan/dockerfix
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  name: dockerfixhelm-service
+  type: NodePort
+  port: 8080
+  targetPort: 8080
+  nodePort: 31080
+
+resources: {}

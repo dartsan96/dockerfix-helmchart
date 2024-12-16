@@ -1,0 +1,5 @@
+apiVersion: v2
+name: dockerfixhelm
+description: A simple Kubernetes application for DockerFix neoflex
+version: 0.1.0
+appVersion: "1.0"
